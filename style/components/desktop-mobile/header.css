@@ -1,0 +1,28 @@
+/* Style Header*/
+.header{
+    width: 100%;
+    height: 2%;
+    box-shadow: 1px 2px 1px #ccc;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bagIcon-header{
+    width: 25px;
+}
+.count-bag{
+    padding: 4px 8px;
+    border-radius: 83px;
+    color: #FFF;
+    font-weight: bold;
+    position: relative;
+    font-size: 10px;
+    margin-right: 0px;
+    font-weight: bold;
+    top: 4%;
+    right: 2%;
+    background-color: #36bff2;
+    font-family: "Open Sans Regular", sans-serif;
+}

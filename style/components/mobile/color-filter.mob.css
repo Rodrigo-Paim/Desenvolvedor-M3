@@ -1,0 +1,50 @@
+/* Style color filter */
+.container-color-mob {
+    display: block;
+    position: relative;
+    height: 12px;
+    padding-left: 52px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    user-select: none;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+.container-color-mob input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark-color-mob{
+    height: 16px;
+    width: 16px;
+}
+.checkmark-color-mob{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border: 1px #838384 solid;
+    background-color: #fff;
+}
+.check-color-mob {
+    height: 10px;
+    width: 10px;
+    margin: 3px auto;
+}
+.container-color-mob:hover input ~ .checkmark-color-mob .check-color-mob {
+    background-color: #ccc;
+}
+.container-color-mob input:checked ~ .checkmark-color-mob .check-color-mob {
+    background-color: #36bff2;
+}
+.checkmark-color-mob:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container-color-mob input:checked ~ .checkmark-color-mob .container-color-mob {
+    display: block;
+}

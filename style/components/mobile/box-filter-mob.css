@@ -1,0 +1,68 @@
+.page-open-mob{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.page-open-title-mob{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: "Open Sans Regular", sans-serif;
+}
+.title-filter-page-mob{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: "Open Sans Regular", sans-serif;
+}
+.iten-title-page{
+    padding: 5px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: left;
+}
+.itens-option{
+    padding: 5px 20px;
+    width: 100%; 
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: left;
+}
+.itens-option:hover{
+    background-color: #33a1eb;
+}
+.column-option{
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1.2px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-weight: normal;
+}
+.option-close{
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    cursor: pointer;
+} 
+.acc-mobile{
+    border: none !important;
+}
+.filter-open-close-mob{
+    display: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 18px;
+}
+.title-sort-page-mob{
+    font-size: 30px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-weight: normal;
+}

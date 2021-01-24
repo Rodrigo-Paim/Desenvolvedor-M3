@@ -1,0 +1,16 @@
+/* Style Footer */
+.footer{
+    background-color: #000;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+.footer-text{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    font-family: "Open Sans Regular", sans-serif;
+    font-weight: bold;
+}

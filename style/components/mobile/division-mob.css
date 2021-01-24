@@ -1,0 +1,18 @@
+.larg-total-mob{
+    margin: auto 40px;
+}
+.box-filter-mob{
+    margin: auto;
+    display: flex;
+}
+.box-option-mob{
+    width: 50%;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.box-option-title-mob{
+    letter-spacing: 1.2px;
+    font-weight: normal;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 20px;
+}

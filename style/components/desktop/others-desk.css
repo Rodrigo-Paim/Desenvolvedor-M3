@@ -1,0 +1,15 @@
+.box-filter{
+    padding: 10px 0;
+}
+.box-title{
+    font-weight: normal;
+    font-size: 16px;
+    font-family: "Open Sans Regular", sans-serif;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.column-title{
+    font-size: 30px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-weight: normal;
+}

@@ -1,0 +1,50 @@
+/* Style price filter */
+.container-price-mob {
+    display: block;
+    position: relative;
+    height: 12px;
+    padding-left: 52px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    user-select: none;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+.container-price-mob input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark-price-mob{
+    height: 16px;
+    width: 16px;
+}
+.checkmark-price-mob{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border: 1px #838384 solid;
+    background-color: #fff;
+}
+.check-price-mob {
+    height: 10px;
+    width: 10px;
+    margin: 3px auto;
+}
+.container-price-mob:hover input ~ .checkmark-price-mob .check-price-mob {
+    background-color: #ccc;
+}
+.container-price-mob input:checked ~ .checkmark-price-mob .check-price-mob {
+    background-color: #36bff2;
+}
+.checkmark-price-mob:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container-price-mob input:checked ~ .checkmark-price-mob .container-price-mob {
+    display: block;
+}

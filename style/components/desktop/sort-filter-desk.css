@@ -1,0 +1,42 @@
+/* Style sort filter */
+.sort-filter{
+    width: 145px;
+    margin: 15px 0;
+    display: inline-block;
+    position: absolute;
+    right: 13%;
+}
+.accordion {
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    width: 145px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid black;
+    font-family: "Open Sans Regular", sans-serif;
+    background-color: #fff;
+}
+.sort-open-close {
+    display: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid black;
+    color: #000;
+}
+.item-sort-open-close{
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+}
+.item-sort-open-close:hover{
+    background-color: #36bff2;
+    color: #fff;
+    cursor: pointer;
+}

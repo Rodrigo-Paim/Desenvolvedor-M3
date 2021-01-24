@@ -1,0 +1,18 @@
+.see-more-render-photos{
+    margin: 30px 0;
+}
+.see-more-render{
+    text-align: center;
+    padding: 10px 0;
+}
+.see-more-render-title{
+    text-transform: uppercase;
+    background-color:  #55ccf7;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}

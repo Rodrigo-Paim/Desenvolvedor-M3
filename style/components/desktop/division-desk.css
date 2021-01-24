@@ -1,0 +1,22 @@
+/* Style division page */
+.wrap-desk{
+    margin: 0 auto;
+    max-width: 55em;
+    overflow: auto;
+    padding: 0 10px;
+}
+.column{
+    float: left;
+    padding: 10px 0;
+}
+.col-left{
+    width: 11rem;
+    display: inline-block;
+}
+.col-right{
+    width: 77%;
+}
+.main-content{
+    display: flex;
+    justify-content: flex-start;
+}
