@@ -1,8 +1,6 @@
 # Pagina do projeto:
 
-Encontra-se na pasta index > index.html
-
-Explicações sobre o projeto:
+index.html
 
 npm install
 
