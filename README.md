@@ -8,6 +8,8 @@ https://rodrigo-paim.github.io/Desenvolvedor-M3/
 
 npm install
 
+projeto da pagina single page como parte do teste para Desenvolvedor Front-End
+
 Todo o projeto foi desenvolvido utilizando HTML5, CSS3 e JavaScript puros.
 
 # Minhas informações:
